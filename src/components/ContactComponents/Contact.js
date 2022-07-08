@@ -4,6 +4,7 @@ const Contact = () => {
   const [message, setMessage] = useState(false)
   return (
     <form name="contact" method="POST" action="/" data-netlify="true" className="form w-80" data-netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="contact" />
       {message ? <h2 className="text-center text-xl font-bold mb-4">Thank you for your message!</h2> : <h2 className="text-center text-2xl font-bold mb-4">Contact us</h2>}
       <div>
         <span class="uppercase text-sm text-gray-600 font-bold">Full Name</span>
