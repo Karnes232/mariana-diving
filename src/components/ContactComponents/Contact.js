@@ -33,7 +33,7 @@ const Contact = () => {
           name="name"
         />
       </div>
-      <div class="mt-8">
+      <div class="mt-4">
         <span class="uppercase text-sm text-gray-600 font-bold">Email</span>
         <input
           class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
@@ -41,7 +41,7 @@ const Contact = () => {
           name="email"
         />
       </div>
-      <div class="mt-8">
+      <div class="mt-4">
         <span class="uppercase text-sm text-gray-600 font-bold">Guests</span>
         <select
           name="guests"
@@ -53,7 +53,7 @@ const Contact = () => {
           <option value="4">4</option>
         </select>
       </div>
-      <div class="mt-8">
+      <div class="mt-4">
         <span class="uppercase text-sm text-gray-600 font-bold">
           Let me know what your interested in
         </span>
@@ -62,7 +62,7 @@ const Contact = () => {
           class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
         ></textarea>
       </div>
-      <div class="mt-8">
+      <div class="mt-4">
         <button class="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
           Send Message
         </button>

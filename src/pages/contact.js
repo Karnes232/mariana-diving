@@ -6,7 +6,7 @@ import { FaWhatsapp } from "react-icons/fa"
 const contact = () => {
   return (
     <Layout>
-      <div className="w-screen max-w-lg flex flex-col mt-10 items-center h-screen">
+      <div className="w-screen max-w-lg flex flex-col mt-5 items-center h-screen">
         <Contact />
         <a
           href="https://api.whatsapp.com/send?phone=18296405433"
@@ -14,7 +14,7 @@ const contact = () => {
           aria-label="Whatsapp"
           rel="noreferrer"
         >
-          <button class="uppercase text-sm font-bold tracking-wide bg-green-600 text-gray-100 p-3 rounded-lg w-80 mt-8 focus:outline-none focus:shadow-outline">
+          <button class="uppercase text-sm font-bold tracking-wide bg-green-600 text-gray-100 p-3 rounded-lg w-80 mt-4 focus:outline-none focus:shadow-outline">
             WhatsApp
             <FaWhatsapp className="inline-block h-4 w-5 ml-1" />
           </button>
