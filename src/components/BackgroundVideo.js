@@ -4,7 +4,7 @@ import video from "../images/scuba2.mp4"
 
 const BackgroundVideo = () => {
   return (
-    <div class="bg-video">
+    <div class="bg-video w-screen max-w-lg">
       <video
         className="bg-video__content"
         autoPlay
