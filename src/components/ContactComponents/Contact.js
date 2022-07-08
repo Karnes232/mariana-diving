@@ -28,7 +28,7 @@ const Contact = () => {
       </div>
       <div class="mt-8">
         <span class="uppercase text-sm text-gray-600 font-bold">Guests</span>
-        <select name="select" class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline">
+        <select name="guests" class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
