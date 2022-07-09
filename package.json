@@ -29,7 +29,8 @@
     "react-dom": "^18.1.0",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.4.0",
-    "react-player": "^2.10.1"
+    "react-player": "^2.10.1",
+    "screenfull": "^6.0.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
