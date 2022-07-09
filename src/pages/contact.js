@@ -14,7 +14,7 @@ const contact = () => {
           aria-label="Whatsapp"
           rel="noreferrer"
         >
-          <button class="uppercase text-sm font-bold tracking-wide bg-green-600 text-gray-100 p-3 rounded-lg w-80 mt-4 focus:outline-none focus:shadow-outline">
+          <button class="uppercase text-sm font-bold tracking-wide bg-[#25D366] text-gray-100 p-3 rounded-lg w-80 mt-4 focus:outline-none focus:shadow-outline">
             WhatsApp
             <FaWhatsapp className="inline-block h-4 w-5 ml-1" />
           </button>
