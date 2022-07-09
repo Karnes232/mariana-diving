@@ -2,7 +2,7 @@ import React from "react"
 
 const CourseCard = ({ img, course, price, description }) => {
   return (
-    <div className="w-11/12 my-2 border rounded-t-lg">
+    <div className="my-2 border rounded-t-lg">
       <img src={img} className="rounded-t-lg" alt={course} />
       <div className="mx-2 my-3 space-y-1">
         <h2 className="text-lg">{course}</h2>

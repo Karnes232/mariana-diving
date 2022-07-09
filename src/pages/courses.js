@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import ReactPlayer from "react-player/youtube"
 import CourseCard from "../components/CourseCardComponents/CourseCard"
 import Layout from "../components/layout"
@@ -25,31 +26,36 @@ const courses = () => {
           />
         </div>
         <div className="flex flex-col items-center justify-center mt-5">
-          <CourseCard
-            img={dsdCardImage}
-            course={"Discover Scuba Diving"}
-            price={"110"}
-            description={
-              "The perfect introduction for those who have never tried scuba diving before!"
-            }
-          />
-          <CourseCard
-            img={sdCardImage}
-            course={"Scuba Diver"}
-            price={"360"}
-            description={
-              "Learn to dive under the direct supervision of a PADI professional to a maximum depth of 12 meters / 40 feet"
-            }
-          />
-
-          <CourseCard
-            img={owdCardImage}
-            course={"Open Water Diver"}
-            price={"460"}
-            description={
-              "Learn to dive anywhere in the world with a certified buddy!"
-            }
-          />
+          <Link to="/discover" className="no-underline w-11/12">
+            <CourseCard
+              img={dsdCardImage}
+              course={"Discover Scuba Diving"}
+              price={"110"}
+              description={
+                "The perfect introduction for those who have never tried scuba diving before!"
+              }
+            />
+          </Link>
+          <Link to="/scubadiver" className="no-underline w-11/12 ">
+            <CourseCard
+              img={sdCardImage}
+              course={"Scuba Diver"}
+              price={"360"}
+              description={
+                "Learn to dive under the direct supervision of a PADI professional to a maximum depth of 12 meters / 40 feet"
+              }
+            />
+          </Link>
+          <Link to="/openwater" className="w-11/12 ">
+            <CourseCard
+              img={owdCardImage}
+              course={"Open Water Diver"}
+              price={"460"}
+              description={
+                "Learn to dive anywhere in the world with a certified buddy!"
+              }
+            />
+          </Link>
         </div>
       </div>
     </Layout>
