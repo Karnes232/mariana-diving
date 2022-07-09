@@ -6,7 +6,7 @@ import { Link } from "gatsby"
 
 const HamburgerMenu = () => {
   return (
-    <div className="cursor-pointer">
+    <div className="cursor-pointer z-50">
       <Menu>
         {({ open }) => (
           <>

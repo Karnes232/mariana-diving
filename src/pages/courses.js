@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import YouTube from 'react-youtube';
+import YouTube from "react-youtube"
 
 import CourseCard from "../components/CourseCardComponents/CourseCard"
 import Layout from "../components/layout"
@@ -16,14 +16,14 @@ const courses = () => {
     "https://www.youtube.com/watch?v=qEzf4MjmowA",
   ]
   const opts = {
-    height: '100%',
-    width: '100%',
-  };
+    height: "100%",
+    width: "100%",
+  }
   return (
     <Layout>
       <div className="w-screen max-w-lg flex flex-col mt-5 items-center">
         <div className="relative w-screen max-w-lg h-56">
-        <YouTube videoId="KvZT3etZIsw" opts={opts} className='h-full' />
+          <YouTube videoId="KvZT3etZIsw" opts={opts} className="h-full" />
         </div>
         <div className="flex flex-col items-center justify-center mt-5">
           <Link to="/discover" className="no-underline w-11/12">
