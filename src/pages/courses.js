@@ -11,7 +11,7 @@ const courses = () => {
   return (
     <Layout>
       <div className="w-screen max-w-lg flex flex-col mt-5 items-center">
-        <div className="relative w-screen h-52">
+        <div className="relative w-screen max-w-lg h-56">
           <ReactPlayer
             className="absolute top-0 left-0"
             url="https://www.youtube.com/watch?v=KvZT3etZIsw"
@@ -19,6 +19,7 @@ const courses = () => {
             //url="https://www.youtube.com/watch?v=qEzf4MjmowA"
             width="100%"
             height="100%"
+            pip={true}
           />
         </div>
         <div className="flex flex-col items-center justify-center mt-5">
@@ -35,7 +36,7 @@ const courses = () => {
             course={"Scuba Diver"}
             price={"360"}
             description={
-              "The perfect introduction for those who have never tried scuba diving before!"
+              "Learn to dive under the direct supervision of a PADI professional to a maximum depth of 12 meters / 40 feet"
             }
           />
 
@@ -44,7 +45,7 @@ const courses = () => {
             course={"Open Water Diver"}
             price={"460"}
             description={
-              "The perfect introduction for those who have never tried scuba diving before!"
+              "Learn to dive anywhere in the world with a certified buddy!"
             }
           />
         </div>

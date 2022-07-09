@@ -24,10 +24,10 @@ const Layout = ({ children }) => {
 
   return (
     <main className="flex flex-col justify-center items-center bg-slate-200">
-      <section className="max-w-lg h-screen bg-white">
+      <section className="max-w-lg bg-white">
         <Header />
         <div>
-          <main className="max-w-lg h-screen bg-white">{children}</main>
+          <main className="max-w-lg bg-white">{children}</main>
         </div>
       </section>
     </main>
