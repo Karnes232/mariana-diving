@@ -8,15 +8,18 @@ import sdCardImage from "../images/sdCard.jpg"
 import owdCardImage from "../images/owdCard.jpg"
 
 const courses = () => {
+  const videoUrls = [
+    "https://www.youtube.com/watch?v=KvZT3etZIsw",
+    "https://www.youtube.com/watch?v=Ad5iorC7xlo",
+    "https://www.youtube.com/watch?v=qEzf4MjmowA",
+  ]
   return (
     <Layout>
       <div className="w-screen max-w-lg flex flex-col mt-5 items-center">
         <div className="relative w-screen max-w-lg h-56">
           <ReactPlayer
             className="absolute top-0 left-0"
-            url="https://www.youtube.com/watch?v=KvZT3etZIsw"
-            //url='https://www.youtube.com/watch?v=Ad5iorC7xlo'
-            //url="https://www.youtube.com/watch?v=qEzf4MjmowA"
+            url={videoUrls}
             width="100%"
             height="100%"
           />
