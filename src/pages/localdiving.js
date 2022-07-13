@@ -17,19 +17,19 @@ const localdiving = () => {
     <Layout>
       <div className="w-screen max-w-lg flex flex-col mt-5 items-center">
         <Carousel showThumbs={false} infiniteLoop={true} autoPlay={true}>
-          <div className="h-80">
+          <div className="h-60">
             <img src={localdiving1} alt="Diving" />
           </div>
-          <div className="h-80">
+          <div className="h-60">
             <img src={localdiving2} alt="Diving" />
           </div>
-          <div className="h-80">
+          <div className="h-60">
             <img src={localdiving3} alt="Diving" />
           </div>
-          <div className="h-80">
+          <div className="h-60">
             <img src={localdiving4} alt="Diving" />
           </div>
-          <div className="h-80">
+          <div className="h-60">
             <img src={localdiving5} alt="Diving" />
           </div>
         </Carousel>

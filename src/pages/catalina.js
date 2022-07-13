@@ -16,23 +16,23 @@ const catalina = () => {
   return (
     <Layout>
       <div className="w-screen max-w-lg flex flex-col mt-5 items-center">
-        <Carousel showThumbs={false} infiniteLoop={true} autoPlay={true}>
-          <div className="h-80">
+        <Carousel showThumbs={false} infiniteLoop={true} autoPlay={false}>
+          <div className="h-60">
             <img src={catalina1} alt="Catalina Island" />
           </div>
-          <div className="h-80">
+          <div className="h-60">
             <img src={catalina2} alt="Catalina Island" />
           </div>
-          <div className="h-80">
+          <div className="h-60">
             <img src={catalina3} alt="Catalina Island" />
           </div>
-          <div className="h-80">
+          <div className="h-60">
             <img src={catalina4} alt="Catalina Island" />
           </div>
-          <div className="h-80">
+          <div className="h-60">
             <img src={catalina5} alt="Catalina Island" />
           </div>
-          <div className="h-80">
+          <div className="h-60">
             <img src={catalina6} alt="Catalina Island" />
           </div>
         </Carousel>
