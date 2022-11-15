@@ -2,9 +2,9 @@ import React, { useState } from "react"
 import { Listbox } from "@headlessui/react"
 import PayPalButtonComponent from "./PayPalButtonComponent"
 import { PayPalScriptProvider } from "@paypal/react-paypal-js"
-const tipOptions = [10, 20, 30, 50, 75, 100]
+const tipOptions = [1, 10, 20, 30, 50, 75, 100]
 const PayPalComponent = () => {
-  const [tip, setTip] = useState(20)
+  const [tip, setTip] = useState(1)
   const calculatePrice = tips => {
     setTip(tips)
   }
