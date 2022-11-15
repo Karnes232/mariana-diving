@@ -10,7 +10,6 @@
   z-index: -4;
   opacity: 0.8;
   overflow: hidden;
-  
 }
 
 .bg-video__content {
@@ -23,7 +22,6 @@
   z-index: -1;
   object-fit: cover;
   object-position: center;
-  
 }
 
 .bg-video__button {
