@@ -104,6 +104,21 @@ const HamburgerMenu = () => {
                         </Link>
                       )}
                     </Menu.Item>
+                    <Menu.Item>
+                      {({ active }) => (
+                        <Link to="/tipjar" className="no-underline">
+                          <button
+                            className={`${
+                              active
+                                ? "bg-gray-100 text-gray-900"
+                                : "text-gray-700"
+                            } flex justify-between w-full px-4 py-2 text-sm leading-5 text-left`}
+                          >
+                            Tip Jar
+                          </button>
+                        </Link>
+                      )}
+                    </Menu.Item>
                   </div>
                 </>
               </Menu.Items>
