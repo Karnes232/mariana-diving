@@ -4,9 +4,9 @@ import PayPalButtonComponent from "./PayPalButtonComponent"
 import {
   PayPalScriptProvider
 } from "@paypal/react-paypal-js";
-const tipOptions = [10, 20, 30, 50, 100]
+const tipOptions = [1, 10, 20, 30, 50, 75, 100]
 const PayPalComponent = ({ tour }) => {
-  const [tip, setTip] = useState(10)
+  const [tip, setTip] = useState(20)
   const calculatePrice = tips => {
     setTip(tips)
  
