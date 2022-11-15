@@ -12,8 +12,8 @@ const PayPalComponent = ({ tour }) => {
  
   }
   return (
-    <div className="bg-video__button top-[50%]">
-      <div className="inline-block rounded-md text-center w-48 font-bold text-lg py-2 px-4 mb-20 text-white bg-blue-600 opacity-100">
+    <div className="bg-video__button top-[50%] w-[90vw] max-w-lg flex flex-col mx-auto">
+      <div className="inline-block rounded-md text-center w-48 font-bold text-lg py-2 mx-auto px-4 mb-20 text-white bg-blue-600 opacity-100">
       <Listbox value={tip} onChange={calculatePrice}>
         <Listbox.Button>Tip:{' '}
         <Listbox.Label>
