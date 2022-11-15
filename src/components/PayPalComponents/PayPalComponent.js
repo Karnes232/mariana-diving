@@ -28,7 +28,7 @@ const PayPalComponent = ({ tour }) => {
         </Listbox.Options>
       </Listbox>
       </div>
-      <div className="mt-10 h-[50vh]">
+      <div className="mt-10 h-[40vh]">
       <PayPalScriptProvider
             options={{
               "client-id": "AaPiNuBE-3bjn86CtDSbnbs5nnaeQ-vNhBk48DdMwZ0vsUYGVuE1_38burybKxv_Qn78gXQYUSKf1UG0",
