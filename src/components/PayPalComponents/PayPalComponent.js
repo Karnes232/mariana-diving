@@ -10,12 +10,12 @@ const PayPalComponent = () => {
   }
   return (
     <div className="bg-video__button top-[50%] w-[90vw] max-w-lg flex flex-col mx-auto">
-      <div className="inline-block rounded-md text-center w-48 font-bold text-lg py-2 mx-auto px-4 mb-20 text-white bg-blue-600 opacity-100">
-        <Listbox value={tip} onChange={calculatePrice}>
-          <Listbox.Button>
+      <div className='flex flex-col mx-auto'>
+        <Listbox  value={tip} onChange={calculatePrice}>
+          <Listbox.Button  className="inline-block rounded-md text-center w-48 font-bold text-lg py-2 mx-auto px-4 mb-10 text-white bg-blue-600 opacity-100">
             Tip: <Listbox.Label>${tip}</Listbox.Label>
           </Listbox.Button>
-          <Listbox.Options>
+          <Listbox.Options className="inline-block rounded-md text-center w-48 font-bold text-lg py-2 mx-auto px-4 text-white bg-blue-600 opacity-75">
             {tipOptions.map(tips => (
               <Listbox.Option key={tips} value={tips}>
                 {tips}
