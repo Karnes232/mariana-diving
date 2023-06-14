@@ -24,7 +24,7 @@ const certified = () => {
             <CourseCard
               img={catalinaCardImage}
               course={"Catalina Island"}
-              price={"209"}
+              price={"218"}
               description={
                 "Enjoy a day on the caribbean coast of the island, with its white sand and turquoise waters"
               }
