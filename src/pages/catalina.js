@@ -49,8 +49,8 @@ const catalina = () => {
         </div>
         <div className="flex flex-col items-center justify-center mt-5 space-y-1 mx-4">
           <h1 className="text-xl font-semibold">Trip Overview</h1>
-          <h4 className="text-sm text-gray-500">Price: $209 per Diver</h4>
-          <h4 className="text-sm text-gray-500">Price: $109 per Snorkeler</h4>
+          <h4 className="text-sm text-gray-500">Price: $218 per Diver</h4>
+          <h4 className="text-sm text-gray-500">Price: $113 per Snorkeler</h4>
           <h4 className="text-sm text-gray-500">Duration: 7:30 - 17:30</h4>
           <h4 className="text-sm text-gray-500">
             Included: Lunch, Drinks, Transportation
